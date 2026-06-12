@@ -1,19 +1,19 @@
 {
     "name": "@datafix/n8n-nodes-pdfmerge",
     "version": "0.1.0",
-    "description": "",
+    "description": "A simple PDF merger node for n8n",
     "license": "MIT",
     "homepage": "",
     "keywords": [
         "n8n-community-node-package"
     ],
     "author": {
-        "name": "WvdP",
-        "email": "w.vanderploeg@datafix.nl"
+        "name": "DataFix",
+        "email": "n8n-verified-node@datafix.nl"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+        "url": "https://github.com/DataFix/n8n-nodes-pdfmerge.git"
     },
     "scripts": {
         "build": "n8n-node build",
