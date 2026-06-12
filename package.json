@@ -1,6 +1,6 @@
 {
   "name": "@datafix/n8n-nodes-pdfmerge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple PDF merger node for n8n",
   "license": "MIT",
   "homepage": "",
