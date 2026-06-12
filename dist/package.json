@@ -1,11 +1,16 @@
 {
     "name": "@datafix/n8n-nodes-pdfmerge",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "A simple PDF merger node for n8n",
     "license": "MIT",
     "homepage": "",
-    "keywords": ["n8n-community-node-package"],
-    "author": { "name": "DataFix", "email": "n8n-verified-node@datafix.nl" },
+    "keywords": [
+        "n8n-community-node-package"
+    ],
+    "author": {
+        "name": "DataFix",
+        "email": "n8n-verified-node@datafix.nl"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/DataFix/n8n-nodes-pdfmerge.git"
@@ -19,12 +24,16 @@
         "release": "n8n-node release",
         "prepublishOnly": "n8n-node prerelease"
     },
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "n8n": {
         "n8nNodesApiVersion": 1,
         "strict": false,
         "credentials": [],
-        "nodes": ["dist/nodes/pdfMerger/PDFMerger.node.js"]
+        "nodes": [
+            "dist/nodes/pdfMerger/PDFMerger.node.js"
+        ]
     },
     "devDependencies": {
         "@n8n/node-cli": "*",
@@ -33,6 +42,10 @@
         "release-it": "^19.0.4",
         "typescript": "5.9.2"
     },
-    "peerDependencies": { "n8n-workflow": "*" },
-    "dependencies": { "pdf-lib": "^1.17.1" }
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    },
+    "dependencies": {
+        "pdf-lib": "^1.17.1"
+    }
 }
