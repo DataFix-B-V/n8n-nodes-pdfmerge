@@ -22,17 +22,17 @@
     "lint": "",
     "lint:fix": "n8n-node lint --fix",
     "release": "n8n-node release",
-    "prepublishOnly": "n8n-node prerelease"
+    "prepublishOnly": ""
   },
   "files": [
     "dist"
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "strict": false,
-    "credentials": [],
+      "strict": false,
+      "credentials": [],
     "nodes": [
-      "dist/nodes/pdfMerger/PDFMerger.node.js"
+    "dist/nodes/PDFMerger/PDFMerger.node.js"
     ]
   },
   "devDependencies": {

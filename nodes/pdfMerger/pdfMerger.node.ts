@@ -9,11 +9,11 @@ import { NodeConnectionTypes, NodeOperationError } from 'n8n-workflow';
 
 import { mergePdfs } from './helper';
 
-export class pdfMerger implements INodeType {
+export class PDFMerger implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'PDF Merger',
-		name: 'pdfMerger',
-		icon: { light: 'file:pdfMerger.svg', dark: 'file:pdfMerger.dark.svg' },
+		name: 'PDFMerger',
+		icon: { light: 'file:PDFMerger.svg', dark: 'file:PDFMerger.dark.svg' },
 		group: ['input'],
 		version: [1],
 		description: 'Basic Example Node',

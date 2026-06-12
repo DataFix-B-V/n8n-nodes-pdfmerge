@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.pdfMerger = void 0;
+exports.PDFMerger = void 0;
 const n8n_workflow_1 = require("n8n-workflow");
 const helper_1 = require("./helper");
-class pdfMerger {
+class PDFMerger {
     constructor() {
         this.description = {
             displayName: 'PDF Merger',
-            name: 'pdfMerger',
-            icon: { light: 'file:pdfMerger.svg', dark: 'file:pdfMerger.dark.svg' },
+            name: 'PDFMerger',
+            icon: { light: 'file:PDFMerger.svg', dark: 'file:PDFMerger.dark.svg' },
             group: ['input'],
             version: [1],
             description: 'Basic Example Node',
@@ -95,5 +95,5 @@ class pdfMerger {
         return [returnData];
     }
 }
-exports.pdfMerger = pdfMerger;
+exports.PDFMerger = PDFMerger;
 //# sourceMappingURL=pdfMerger.node.js.map

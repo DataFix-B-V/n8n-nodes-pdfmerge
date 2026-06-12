@@ -1,5 +1,5 @@
 import type { IExecuteFunctions, INodeExecutionData, INodeType, INodeTypeDescription } from 'n8n-workflow';
-export declare class pdfMerger implements INodeType {
+export declare class PDFMerger implements INodeType {
     description: INodeTypeDescription;
     execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]>;
 }
